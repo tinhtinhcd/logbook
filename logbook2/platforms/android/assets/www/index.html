@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Logbook 2</title>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </head>
+    <body>
+    <div class="app">
+        <span>CREATE EVENT</span>
+            <span>  </span>
+            <table>
+                <tbody>
+                    <tr>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td>Event Name:</td>
+                        <td><input id="name"/></td>
+                    </tr>
+                    <tr>
+                        <td>Location</td>
+                        <td><input id="loc"></td>
+                    </tr>
+                    <tr>
+                        <td>Date:</td>
+                        <td><input type="date" name="start_time" id="date_event" placeholder=""></td>
+                    </tr>
+                    <tr>
+                        <td>Start time: </td>
+                        <td><input type="time" name="start_time" id="start_time" placeholder=""></td>
+                    </tr>
+                    <tr>
+                        <td>Organizer</td>
+                        <td><input id="org"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input id="save" value="Save" type="button" name="Save" onclick="validate()"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
