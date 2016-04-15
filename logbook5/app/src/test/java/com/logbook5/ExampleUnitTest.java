@@ -1,4 +1,4 @@
-package ltanh.logbook5;
+package com.logbook5;
 
 import org.junit.Test;
 
